@@ -8,7 +8,6 @@ const DiscussionThread = ({ discussion }) => {
 
   const handleSubmitComment = (e) => {
     e.preventDefault();
-    // Handle comment submission
     console.log('New comment:', newComment);
     setNewComment('');
   };

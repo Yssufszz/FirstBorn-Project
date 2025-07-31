@@ -67,7 +67,6 @@ const ContentManagement = () => {
       if (priceError) newErrors.price = priceError;
     }
 
-    // Validasi: minimal ada audio ATAU video
     const hasExistingAudio = editingContent?.audioUrl;
     const hasExistingVideo = editingContent?.videoUrl;
     const hasNewAudio = files.audio;
@@ -398,7 +397,6 @@ const ContentManagement = () => {
             )}
           </div>
 
-          {/* Error message untuk media */}
           {errors.media && (
             <div className="p-3 bg-red-50 border border-red-200 rounded-lg">
               <p className="text-sm text-red-600">{errors.media}</p>

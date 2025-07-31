@@ -61,7 +61,7 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Kontak</h4>
             <ul className="space-y-2 text-gray-400">
-              <li>Email: hello@firstborn.com</li>
+              <li>Email: firstborn.pov@gmail.com</li>
               <li>Phone: +62 812 3456 7890</li>
               <li>Instagram: @firstborn_id</li>
             </ul>
