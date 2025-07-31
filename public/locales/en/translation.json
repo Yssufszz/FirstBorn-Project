@@ -1,0 +1,29 @@
+{
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "email": "Email",
+    "password": "Password",
+    "forgotPassword": "Forgot Password?",
+    "loginSuccess": "Login successful",
+    "registerSuccess": "Registration successful"
+  },
+  "navigation": {
+    "home": "Home",
+    "content": "Content",
+    "merchandise": "Merchandise",
+    "cart": "Cart",
+    "orders": "My Orders",
+    "talkToUs": "Talk to Us",
+    "profile": "Profile"
+  },
+  "common": {
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "search": "Search"
+  }
+}

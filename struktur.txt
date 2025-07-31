@@ -1,0 +1,92 @@
+firstborn/
+├── public/
+│   ├── locales/
+│   │   ├── en/
+│   │   │   └── translation.json
+│   │   └── id/
+│   │       └── translation.json
+│   └── favicon.ico
+├── src/
+│   ├── components/
+│   │   ├── common/
+│   │   │   ├── Header.jsx
+│   │   │   ├── Footer.jsx
+│   │   │   ├── Loading.jsx
+│   │   │   ├── Modal.jsx
+│   │   │   ├── LanguageSwitcher.jsx
+│   │   │   └── ProtectedRoute.jsx
+│   │   ├── forms/
+│   │   │   ├── LoginForm.jsx
+│   │   │   ├── RegisterForm.jsx
+│   │   │   ├── AddressForm.jsx
+│   │   │   └── PaymentForm.jsx (ini belum)
+│   │   ├── maps/
+│   │   │   └── GoogleMapsPicker.jsx
+│   │   ├── customer/
+│   │   │   ├── ContentCard.jsx
+│   │   │   ├── MerchandiseCard.jsx
+│   │   │   ├── CartItem.jsx
+│   │   │   ├── OrderItem.jsx
+│   │   │   └── DiscussionThread.jsx
+│   │   └── admin/
+│   │       ├── Sidebar.jsx
+│   │       ├── UserManagement.jsx
+│   │       ├── ContentManagement.jsx
+│   │       ├── MerchandiseManagement.jsx (ini belum)
+│   │       ├── OrderManagement.jsx (ini belum)
+│   │       └── MessageManagement.jsx (ini belum)
+│   ├── pages/
+│   │   ├── customer/
+│   │   │   ├── auth/
+│   │   │   │   ├── Login.jsx
+│   │   │   │   ├── Register.jsx
+│   │   │   │   └── ForgotPassword.jsx
+│   │   │   ├── Home.jsx
+│   │   │   ├── Content.jsx
+│   │   │   ├── Merchandise.jsx
+│   │   │   ├── Cart.jsx
+│   │   │   ├── Orders.jsx
+│   │   │   ├── TalkToUs.jsx
+│   │   │   └── Profile.jsx
+│   │   └── admin/
+│   │       ├── Login.jsx
+│   │       ├── Dashboard.jsx
+│   │       ├── Users.jsx
+│   │       ├── Content.jsx
+│   │       ├── Merchandise.jsx
+│   │       ├── Orders.jsx
+│   │       └── Messages.jsx
+│   ├── hooks/
+│   │   ├── useAuth.js
+│   │   ├── useFirestore.js
+│   │   ├── useStorage.js
+│   │   ├── useMidtrans.js
+│   │   └── useGoogleMaps.js
+│   ├── services/
+│   │   ├── firebase.js
+│   │   ├── auth.js
+│   │   ├── firestore.js
+│   │   ├── storage.js
+│   │   ├── midtrans.js
+│   │   └── maps.js (ini belum)
+│   ├── contexts/
+│   │   ├── AuthContext.jsx
+│   │   ├── CartContext.jsx
+│   │   └── LanguageContext.jsx
+│   ├── utils/
+│   │   ├── constants.js
+│   │   ├── helpers.js
+│   │   ├── validation.js
+│   │   └── i18n.js
+│   ├── layouts/
+│   │   ├── CustomerLayout.jsx
+│   │   └── AdminLayout.jsx
+│   ├── App.jsx
+│   └── main.jsx
+├── .env
+├── .env.example
+├── .gitignore
+├── package.json
+├── tailwind.config.js
+├── postcss.config.js
+└── vite.config.js

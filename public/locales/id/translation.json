@@ -1,0 +1,29 @@
+{
+  "auth": {
+    "login": "Masuk",
+    "register": "Daftar",
+    "email": "Email",
+    "password": "Kata Sandi",
+    "forgotPassword": "Lupa Kata Sandi?",
+    "loginSuccess": "Login berhasil",
+    "registerSuccess": "Registrasi berhasil"
+  },
+  "navigation": {
+    "home": "Beranda",
+    "content": "Konten",
+    "merchandise": "Merchandise",
+    "cart": "Keranjang",
+    "orders": "Pesanan Saya",
+    "talkToUs": "Hubungi Kami",
+    "profile": "Profil"
+  },
+  "common": {
+    "loading": "Memuat...",
+    "save": "Simpan",
+    "cancel": "Batal",
+    "delete": "Hapus",
+    "edit": "Edit",
+    "add": "Tambah",
+    "search": "Cari"
+  }
+}
